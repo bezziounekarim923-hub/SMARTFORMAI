@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+backend/.venv/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.bak
+temp_output.txt
+
+# Archives
+*.zip
+
+# Generated output
+output/
+datasets/rendered/
+
+# OCR models (optional)
+paddleocr_models/
+tmp_debug_mapping.py
